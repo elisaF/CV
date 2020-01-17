@@ -1,0 +1,9 @@
+image: elisaF/CV
+
+build:
+  stage: build
+  artifacts:
+    paths:
+      - cv_ElisaFerracane.pdf
+  script:
+    - latexmk -pdf cv.tex

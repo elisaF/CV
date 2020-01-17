@@ -1,0 +1,320 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{libertine}
+\usepackage[resetlabels]{multibib}
+\usepackage{fontawesome}
+\newcites{unpublished,misc,article,inbook,inproceedings,conference}{{},{},{},{}, {}, {}}
+\usepackage[left=0.6 in,top=0.6in,right=0.6 in,bottom=0.6in]{geometry} % Document margins
+\usepackage{hyperref}
+\newcommand\BibTeX{B{\sc ib}\TeX}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Elisa Ferracane} % Your name
+\address{\href{mailto:elisa@ferracane.com}{elisa@ferracane.com}}
+
+\address{\href{http://elisa.ferracane.com}{elisa.ferracane.com}}
+\address{(512) 769-5413} 
+\address{1104 Rebecca Dr, Austin, TX 78758} 
+
+
+\let\oldbibliography\thebibliography
+\renewcommand{\thebibliography}[1]{%
+  \oldbibliography{#1}%
+  \setlength{\itemsep}{-3pt}%
+}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{RESEARCH INTERESTS}
+\vspace{-0.3em}
+{I am a PhD candidate in the field of Computational Linguistics, specializing in computational discourse. My dissertation examines subjective discourse, where the same text can yield different interpretations, depending on the reader's biases. I focus on creating models that can account for and predict the presence of multiple, valid labels to describe a discourse relation.    
+
+%At AI2, I am interested in collaborating with research scientists in the field of computational discourse. My goal for a summer internship is to both advance my particular line of research and complete a project with publishable results.
+}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\vspace{-0.3em}
+{\bf PhD in Linguistics, specialization in Computational Linguistics} \hfill {2020 (expected)}
+\\ 
+The University of Texas at Austin, Texas. GPA: 3.95. 
+\\Advisors: Dr. Katrin Erk, Dr. Junyi Jessy Li
+
+{\bf Master's in Linguistics} \hfill {May 2018}
+\\
+Thesis: Testing the usefulness of RST and more general representations for discourse analysis across domains and applications
+\\Advisors: Dr. Katrin Erk, Dr. Junyi Jessy Li
+\\
+The University of Texas at Austin, Texas. GPA: 3.95. 
+
+{\bf Bachelor of Science in Computer Engineering} \hfill {2001}
+\\ 
+University of Puerto Rico, Mayag\"uez, Puerto Rico. GPA: 3.80.
+
+{\textbf{Study abroad}}  \hfill Summer 1998\\
+Universit\'a per Stranieri, Perugia, Italy. GPA: 4.00. 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{RESEARCH EXPERIENCE} 
+\vspace{-0.3em}
+\begin{rSubsection}{Research Intern}{Summer 2019} {Google; San Francisco, California; Hosts: Praveen Paritosh, Jason Baldridge} {}
+\item Designed a scalable data scraping and annotation process to construct debates in the ``wild'' out of Reddit threads. Created a small dataset to validate the process and understand the nature of the data.
+\end{rSubsection}
+
+\begin{rSubsection}{Deep Learning Research Intern}{Summer 2018} {Salesforce Research; Palo Alto, California} {}
+\item Explored the discourse structure induced using different forms of attention, different objective functions, and adding a small amount of supervision.
+\end{rSubsection}
+
+\begin{rSubsection}{Analysis of induced discourse structures across NLP tasks}{2017-2018}{Supervisors: Katrin Erk, Junyi Jessy Li, Greg Durrett; The University of Texas at Austin}{}
+\item Used neural network with attention to induce discourse dependency trees on a combination of end tasks evaluated on the same dataset.
+\item Analyzed dependency trees for usefulness on end task, and comparison between tasks.
+\end{rSubsection}
+
+\begin{rSubsection}{Analysis of spelling mistakes for Parkinson's}{2014-present}{Supervisor: Colin Bannard; University of Liverpool}{}
+\item Analyzing spelling mistakes from healthy and Parkinson's patients with goal of detecting early onset of Parkinson's disease.
+\item Led annotation project to create corpus of categorized spelling mistakes from Wikipedia, directing three undergraduate students.
+\end{rSubsection}
+
+\begin{rSubsection}{Discourse analysis of medical documents}{2015-2016}{Supervisors: Byron Wallace, Katrin Erk; The University of Texas at Austin}{}
+\item Combined information extraction techniques with coreference chains to identify key pieces of information in medical abstracts.
+\end{rSubsection}
+
+\begin{rSubsection}{Foreign accent adaptation in noise}{2013-2016}{Supervisor: Rajka Smiljanic; The University of Texas at Austin}{} 
+\item Carried out experimental phonetics study to analyze listener adaptation to foreign-accented speech in different forms of noise.
+\item Trained and led several undergraduate researchers on lab protocols and analysis techniques.
+\end{rSubsection}
+
+\end{rSection} 
+
+%	EXAMPLE SECTION
+%-----------------------------------------------------------------
+\newpage
+\begin{rSection}{RELEVANT GRADUATE COURSEWORK} \itemsep -3pt  
+\vspace{-0.3em}
+{\textit{Department of Linguistics:} Research in Computational Linguistics}\\ 
+{\textit{Department of Computer Science:} Deep Learning Seminar; Structured Models for NLP; Natural Language Processing}\\
+{\textit{Department of Statistics and Data Science:} Introduction to Statistical Learning; Statistical Modeling}
+\end{rSection} 
+
+\begin{rSection}{AWARDS AND FELLOWSHIPS} \itemsep -3pt  
+\vspace{-0.3em}
+{\libertineSB{National Science Foundation Graduate Research Fellowship (NSF GRFP)} \hfill2017-2020}\\ 
+{Graduate School Mentoring Fellowship; The University of Texas at Austin \hfill2015-2016}\\
+{Values Award - Trust and personal responsibility in all relationships; IBM \hfill2015} \\
+{Bravo Award - Exceptional performance on WebSphere Application Server v6.1; IBM \hfill2005} \\
+{Bravo Award - Product Validation contributions for WebSphere z/OS V5.0, 5.0.1, 5.0.2; IBM \hfill2004}
+\end{rSection} 
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} p{11cm} }
+Languages & English, Spanish, Italian (fluent); French, Japanese, Chinese (limited)\\ 
+Programming Languages & Python, Java, R; knowledge of Jython, shell script, SQL, javascript, HTML, C/C++, Scala\\  
+Operating Systems & UNIX, Linux, macOS, z/OS, Windows \\
+Machine Learning & TensorFlow, PyTorch, DyNet, scikit-learn, numpy, NLTK, pandas \\ 
+Software &  git, Jupyter Notebook, AWS, Docker, Apache Maven, Agile development, Rational Tools, R Studio, E-Prime, Eclipse, IBM WebSphere Application Server, HTTPUnit, Junit \\
+Communication & Excellent written and oral communication skills across large organizations, different cultures and languages \\
+Leadership & Extensive experience leading and organizing small teams in successful product deliveries
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{WORK EXPERIENCE}\itemsep -10pt  
+\begin{rSubsection}{Security Software Developer for WebSphere Application Server}{2006-2015} {IBM; Austin, Texas} {}
+\item Technical lead.
+\item Customer advocate for global financial firm.
+\item Technical mentor for 2 IBM new hires and 2 new team members.
+\end{rSubsection}
+
+\begin{rSubsection}{Member of Corporate Services Corp in Kenya}{June 2012} {IBM; Nairobi, Kenya}{}
+\item Nominated for on-location philanthropic assignment.
+\item Collaborated with NGO and intergovernmental body to design a communications network for an energy-trading platform spanning ten Eastern Africa countries.
+\end{rSubsection}
+
+\begin{rSubsection}{Communications Lead for IBM Software Group Midwest US Cluster}{2009-2013} {IBM; Austin, Texas}{}
+\item Helped organize and carry out monthly technical education events for IBM sites across the Midwest US.
+\end{rSubsection}
+
+\begin{rSubsection}{Level 3 Customer Support Specialist for WebSphere}{Sep-Dec 2010} {IBM; Austin, Texas}{}
+\item Provided technical support for WebSphere customers.
+\end{rSubsection}
+
+\begin{rSubsection}{Graphical User Interface Developer for WebSphere}{2005-2006} {IBM; Austin, Texas}{}
+\item Developed parts of the WebSphere GUI administrative console.
+\end{rSubsection}
+
+\begin{rSubsection}{System Tester for WebSphere on z/OS}{2002-2005} {IBM; Poughkeepsie, New York}{}
+\item Led in defining and standardizing test processes; educated other teams on the product.
+\item Technical mentor for two summer interns.
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+\newpage
+% \begin{rSection}{CURRENT SUBMISSIONS}
+% \vspace{-4.7em}
+% \nociteunpublished{Ferracane19}
+% \bibliographystyleunpublished{cv}
+% \bibliographyunpublished{cv} 
+% \end{rSection}
+
+\begin{rSection}{PEER-REVIEWED PUBLICATIONS}
+\vspace{-4.7em}
+\nocitearticle{Ferracane19c, Ferracane19b, Ferracane19a,Ferracane17,Ferracane16}
+\bibliographystylearticle{cv}
+\bibliographyarticle{cv} 
+\end{rSection}
+
+\begin{rSection}{BOOK CHAPTERS}
+\vspace{-4.7em}
+\nociteinbook{Sadtler2009, Albertoni2009}
+\bibliographystyleinbook{cv}
+\bibliographyinbook{cv} 
+\end{rSection}
+
+\begin{rSection}{CONFERENCE PRESENTATIONS}
+\vspace{-4.7em}
+\nociteinproceedings{proc17, proc16, proc15b, proc14, proc15}
+\bibliographystyleinproceedings{cv}
+\bibliographyinproceedings{cv} 
+\end{rSection}
+
+\begin{rSection}{OTHER PRESENTATIONS}
+\vspace{-4.7em}
+\nociteconference{prez17, prez16b, prez16, prez12, prez10c, prez10b, prez10a}
+\bibliographystyleconference{cv}
+\bibliographyconference{cv} 
+\end{rSection}
+
+\newpage
+\begin{rSection}{SERVICE} \itemsep -1pt {}
+\vspace{-0.7em}
+\begin{rSubsection}{Conference reviewing}{} 
+{}{}
+\item Area reviewer for Discourse \& Dialogue at AAAI 2019
+\item Area reviewer for Discourse \& Pragmatics at EMNLP-IJCAI 2019
+\item Secondary reviewer for ACL 2018, NAACL 2018, AAAI 2019
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{TEACHING ACTIVITIES \& ADVISING} \itemsep -1pt {}
+\vspace{-0.7em}
+\begin{rSubsection}{Mentor for international graduate student}{} 
+{The University of Texas at Austin}{}
+\item Helping international graduate student with fluency in English.
+\item \hspace{4ex}Tian Zhao \hfill Jan-May 2019
+\end{rSubsection}
+\begin{rSubsection}{Mentor for Linguistics undergraduate}{} 
+{The University of Texas at Austin}{}
+\item Mentoring undergraduate in RST-style discourse parsing in the medical domain.
+\item \hspace{4ex}Titan Page \hfill Aug-Dec 2017
+\end{rSubsection}
+\begin{rSubsection}{Mentor in the Pre-graduate School Internship Program}{} 
+{The University of Texas at Austin}{}
+\item Mentor students in researching honor's thesis and applying to graduate school.
+\item \hspace{4ex}Alessandra Urbina \hfill Aug-Dec 2018
+\item \hspace{4ex}Madhav Narayan \hfill Aug-Dec 2017
+\item \hspace{4ex}Mar\'ia Gavino \hfill Jan-May 2016
+\end{rSubsection}
+
+\begin{rSubsection}{Class assistant for Summer Statistics Institute, Dept. of Statistics \& Data Sciences}{} 
+{The University of Texas at Austin}{}
+\item Facilitated learning in 4-day workshop.
+\item \hspace{4ex}Large Scale Data Analysis with Hadoop and Spark \hfill May 2017
+\item \hspace{4ex}Big Data Analytics: Theory and Methods \hfill May 2016
+\end{rSubsection}
+
+\end{rSection}
+\begin{rSection}{PATENTS ISSUED}{}
+\vspace{-5.5em}
+\nocitemisc{Bennett13, Odonnell2014, Odonnell2015, Odonnell2015B, Ferracane2014, Bennett2017, Bennett2016}
+\bibliographystylemisc{plain}
+\bibliographymisc{cv} 
+\end{rSection}
+
+\begin{rSection}{VOLUNTEERING} \itemsep -1pt {}
+\vspace{-0.5em}
+{Volunteer at Drive-A-Senior Organization \hfill 2014-present\\
+\textit{Austin, TX} \\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em } 
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Provide transportation and companionship for senior citizens.
+  \end{list}}
+
+{Teacher Assistant for Hour of Code \hfill Dec 2015\\
+\textit{P\'erez Elementary School; Austin, TX}  \\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em }
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Introduced primary school children to coding concepts.
+  \end{list}}
+
+{Tutor at the Settlement Home for Children \hfill 2009-2013\\
+\textit{Austin, TX}  \\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em } 
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Tutored abused girls in multiple high school subjects.
+  \end{list}}
+
+{Volunteer at Red Cross \hfill 2008, 1998\\
+\textit{Austin, TX and Mayag\"uez, PR}  \\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em } 
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Helped people at shelters displaced by hurricanes.
+  \end{list}}
+
+{Volunteer at Engineer Week IBM \hfill 2012, 2010\\
+\textit{Austin, TX}  \\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em } 
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Led educational workshops encouraging middle-school girls to pursue STEM careers.
+  \end{list}}
+
+{Tutor at Literacy Connections of Duchess County \hfill 2003-2005\\ \textit{Literacy Volunteers of America; Poughkeepsie, NY}\\
+\vspace{-1.3em}
+  \begin{list}{}{\leftmargin=1em \rightmargin=7em } 
+   \itemsep -0.7em \vspace{-0.6em} 
+   \item Taught adult student to read and write.
+  \end{list}}
+\end{rSection}
+\end{document}
+
+\end{document}
+
+
